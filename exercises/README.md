@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 9:33:38 AM
+> 7/7/2020, 11:57:07 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -290,8 +290,21 @@ Finished in 0 seconds
 
 <a name="leapYears"></a>
 
-## leapYears()
+## leapYears(year) ⇒ <code>boolean</code>
+This function finds out whether given year is a leap year or not.
 
+
+**Returns**: <code>boolean</code> - - true if the year is a leap year, false otherwise.  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| year | <code>number</code> | the given year |
+
+**Example**  
+```js
+const leapYears=(1600);
+console.log(leapYears); // True
+```
 **Test Report**
 ```
 Started
