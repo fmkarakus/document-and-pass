@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 8:43:43 AM
+> 7/7/2020, 10:51:46 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -104,8 +104,22 @@ Finished in 0.006 seconds
 
 <a name="repeatString"></a>
 
-## repeatString()
+## repeatString(str, num) ⇒ <code>string</code>
+This function repeats the string a given number of times
 
+
+**Returns**: <code>string</code> - - the repeated string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the initial string |
+| num | <code>number</code> | number of times the string will be repeated |
+
+**Example**  
+```js
+const repeatString=('Hey', 3);
+console.log(repeatString); // 'HeyHeyHey'
+```
 **Test Report**
 ```
 Started
