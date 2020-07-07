@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/3/2020, 3:35:30 PM
+> 7/7/2020, 10:39:10 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -68,8 +68,22 @@ Finished in 0.009 seconds
 
 <a name="removeFromArray"></a>
 
-## removeFromArray()
+## removeFromArray(arr, ...args) ⇒ <code>array</code>
+Implement a function that takes an array and some other arguments then removes the other arguments from that array
 
+
+**Returns**: <code>array</code> - - the final array  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| arr | <code>array</code> | the initial array |
+| ...args | <code>arguments</code> | the arguments to be removed |
+
+**Example**  
+```js
+const removeFromArray=([1, 2, 3, 4], 3);
+console.log(removeFromArray); // [1,2,4]
+```
 **Test Report**
 ```
 Started
