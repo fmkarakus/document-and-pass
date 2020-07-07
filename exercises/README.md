@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 11:04:50 AM
+> 7/7/2020, 9:06:00 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -55,7 +55,7 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.008 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -162,7 +162,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.002 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -198,7 +198,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -220,7 +220,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -245,7 +245,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.001 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -285,7 +285,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -445,7 +445,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -485,7 +485,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
