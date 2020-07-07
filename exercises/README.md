@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 9:13:10 AM
+> 7/7/2020, 11:32:11 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -246,8 +246,30 @@ Finished in 0.006 seconds
 
 <a name="getTheTitles"></a>
 
-## getTheTitles()
+## getTheTitles(books) ⇒ <code>array</code>
+This function gets the titles of books from an object that contains arrays of  book titles and authors
 
+
+**Returns**: <code>array</code> - - an array that contains book titles  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| books | <code>object</code> | an object that contains arrays that contains book titles and authors |
+
+**Example**  
+```js
+const const books = [
+  {
+    title: 'Book',
+    author: 'Name'
+  },
+  {
+    title: 'Book2',
+    author: 'Name2'
+  }
+];
+getTheTitles(books) // ['Book','Book2']
+```
 **Test Report**
 ```
 Started
