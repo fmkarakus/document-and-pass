@@ -9,4 +9,4 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.008 seconds
+Finished in 0.011 seconds

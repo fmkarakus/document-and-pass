@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 11:57:07 AM
+> 7/7/2020, 10:22:46 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -55,7 +55,7 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.008 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -91,7 +91,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -127,7 +127,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -198,7 +198,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -277,7 +277,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0 seconds
+Finished in 0.001 seconds
 
 ```
 
@@ -308,29 +308,11 @@ console.log(leapYears); // True
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F.
+..................
 
-Failures:
-1) leapYears works with non century years
-.    Expected undefined to equal true..
 
-2) leapYears works with non century years
-.    Expected undefined to equal false..
-
-3) leapYears works with ridiculously futuristic non century years
-.    Expected undefined to equal true..
-
-4) leapYears works with century years
-.    Expected undefined to equal false..
-
-5) leapYears works with century years
-.    Expected undefined to equal true..
-
-6) leapYears works with century years
-.    Expected undefined to equal false..
-
-6 specs, 6 failures
-Finished in 0.008 seconds
+6 specs, 0 failures
+Finished in 0.005 seconds
 
 ```
 
@@ -441,7 +423,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.006 seconds
 
 ```
 
