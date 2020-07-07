@@ -1,4 +1,13 @@
-/**
+/**This function adds all the numbers inclusively between any two given numbers. Output is "ERROR" if one of the inputs in not a number
+ *
+ * @param {number} a - the first number
+ * @param {number} b - the second number
+ * @returns {number} - the sum
+ *
+ * @example
+ *
+ * const sumAll=(2, 5);
+ * console.log(sumAll); // 14
  *
  */
 const sumAll = (a, b) => {

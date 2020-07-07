@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 8:59:27 AM
+> 7/7/2020, 11:04:50 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -175,8 +175,22 @@ Finished in 0.002 seconds
 
 <a name="sumAll"></a>
 
-## sumAll()
+## sumAll(a, b) ⇒ <code>number</code>
+This function adds all the numbers inclusively between any two given numbers. Output is "ERROR" if one of the inputs in not a number
 
+
+**Returns**: <code>number</code> - - the sum  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| a | <code>number</code> | the first number |
+| b | <code>number</code> | the second number |
+
+**Example**  
+```js
+const sumAll=(2, 5);
+console.log(sumAll); // 14
+```
 **Test Report**
 ```
 Started
