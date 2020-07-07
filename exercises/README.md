@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 11:32:11 AM
+> 7/7/2020, 9:33:38 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -198,7 +198,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -273,14 +273,11 @@ getTheTitles(books) // ['Book','Book2']
 **Test Report**
 ```
 Started
-.F.
+...
 
-Failures:
-1) getTheTitles gets titles
-.    Expected undefined to equal [ 'Book', 'Book2' ]..
 
-1 spec, 1 failure
-Finished in 0.001 seconds
+1 spec, 0 failures
+Finished in 0 seconds
 
 ```
 
@@ -320,7 +317,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -357,7 +354,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -480,7 +477,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -520,7 +517,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
