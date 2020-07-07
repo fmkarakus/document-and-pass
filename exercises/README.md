@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 9:06:00 AM
+> 7/7/2020, 11:11:05 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -211,8 +211,21 @@ Finished in 0.005 seconds
 
 <a name="fibonacci"></a>
 
-## fibonacci()
+## fibonacci(num) ⇒ <code>number</code>
+This function finds nth fibonacci number, converts strings into numbers, returns "OOPS" if the number is negative.
 
+
+**Returns**: <code>number</code> - - the num'th fibonacci number  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| num | <code>number</code> | the rank of fibonacci number |
+
+**Example**  
+```js
+const fibonacci=(6);
+console.log(fibonacci); // 8
+```
 **Test Report**
 ```
 Started

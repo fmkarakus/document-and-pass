@@ -1,4 +1,12 @@
-/**
+/**This function finds nth fibonacci number, converts strings into numbers, returns "OOPS" if the number is negative.
+ *
+ * @param {number} num - the rank of fibonacci number
+ * @returns {number} - the num'th fibonacci number
+ *
+ * @example
+ *
+ * const fibonacci=(6);
+ * console.log(fibonacci); // 8
  *
  */
 const fibonacci = (num) => {
