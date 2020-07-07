@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 11:11:05 AM
+> 7/7/2020, 9:13:10 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -55,7 +55,7 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.009 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -233,7 +233,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -258,7 +258,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.002 seconds
+Finished in 0.001 seconds
 
 ```
 
@@ -378,7 +378,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
