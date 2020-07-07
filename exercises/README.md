@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 8:53:04 AM
+> 7/7/2020, 10:57:41 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -140,8 +140,21 @@ Finished in 0.005 seconds
 
 <a name="reverseString"></a>
 
-## reverseString()
+## reverseString(str) ⇒ <code>string</code>
+This function reverses a given string
 
+
+**Returns**: <code>string</code> - - the reversed string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the initial string |
+
+**Example**  
+```js
+const reverseString=('Hello World');
+console.log(reverseString); // 'dlroW olleH'
+```
 **Test Report**
 ```
 Started
