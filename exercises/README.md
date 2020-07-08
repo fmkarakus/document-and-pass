@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/8/2020, 3:15:11 PM
+> 7/8/2020, 1:16:40 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -55,7 +55,7 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.011 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -91,7 +91,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -127,7 +127,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -233,7 +233,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -312,7 +312,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -343,26 +343,11 @@ console.log(palindromes); // True
 **Test Report**
 ```
 Started
-.F..F..F..F..F.
+...............
 
-Failures:
-1) palindromes works with single words
-.    Expected undefined to equal true..
 
-2) palindromes works with punctuation
-.    Expected undefined to equal true..
-
-3) palindromes works with multiple words
-.    Expected undefined to equal true..
-
-4) palindromes works with multiple words
-.    Expected undefined to equal true..
-
-5) palindromes doesn't just always return true
-.    Expected undefined to equal false..
-
-5 specs, 5 failures
-Finished in 0.006 seconds
+5 specs, 0 failures
+Finished in 0.004 seconds
 
 ```
 
@@ -436,7 +421,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.006 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -485,7 +470,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.009 seconds
+Finished in 0.008 seconds
 
 ```
 
