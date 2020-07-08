@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/8/2020, 3:22:22 PM
+> 7/9/2020, 12:31:00 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -391,8 +391,38 @@ Finished in 0.005 seconds
 
 <a name="findTheOldest"></a>
 
-## findTheOldest()
+## findTheOldest(people) ⇒ <code>object</code>
+This function returns the oldest person from an array of objects representing people with a birth and death year, 
+If the death year isn't specified, function uses the current age.
 
+
+**Returns**: <code>object</code> - - object that contains the oldest person  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| people | <code>array</code> | array of objects which contain three keys about people; name, year of birth, year of death(optional) |
+
+**Example**  
+```js
+const people=[
+      {
+        name: 'Carly',
+        yearOfBirth: 1942,
+        yearOfDeath: 1970,
+      },
+      {
+        name: 'Ray',
+        yearOfBirth: 1962,
+        yearOfDeath: 2011
+      },
+      {
+        name: 'Jane',
+        yearOfBirth: 1912,
+        yearOfDeath: 1941
+      },
+    ];
+console.log(findTheOldest); // {name:'Ray', yearOfBirth:1962, yearOfDeath:2011}
+```
 **Test Report**
 ```
 Started
