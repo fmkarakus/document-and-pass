@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/8/2020, 5:20:53 PM
+> 7/8/2020, 3:22:22 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -45,17 +45,11 @@ console.log(greeting); // 'Hello, World!'
 **Test Report**
 ```
 Started
-.F..F.
+......
 
-Failures:
-1) Hello says hello world
-.    Expected '' to equal 'Hello, World!'..
 
-2) Hello says hello toys
-.    Expected '' to equal 'Hello, toys!'..
-
-2 specs, 2 failures
-Finished in 0.01 seconds
+2 specs, 0 failures
+Finished in 0.009 seconds
 
 ```
 
@@ -91,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -127,7 +121,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -198,7 +192,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -380,32 +374,11 @@ console.log(caesar); // 'Mjqqt, Btwqi!'
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) caesar works with single letters
-.    Expected undefined to equal 'B'..
 
-2) caesar works with words
-.    Expected undefined to equal 'Bbb'..
-
-3) caesar works with phrases
-.    Expected undefined to equal 'Mjqqt, Btwqi!'..
-
-4) caesar works with negative shift
-.    Expected undefined to equal 'Hello, World!'..
-
-5) caesar wraps
-.    Expected undefined to equal 'A'..
-
-6) caesar works with large shift factors
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
-7) caesar works with large negative shift factors
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
-7 specs, 7 failures
-Finished in 0.006 seconds
+7 specs, 0 failures
+Finished in 0.005 seconds
 
 ```
 
@@ -436,7 +409,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -485,7 +458,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.011 seconds
 
 ```
 
