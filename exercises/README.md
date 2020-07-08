@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/7/2020, 10:22:46 AM
+> 7/8/2020, 3:15:11 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -325,8 +325,21 @@ Finished in 0.005 seconds
 
 <a name="palindromes"></a>
 
-## palindromes()
+## palindromes(str) ⇒ <code>boolean</code>
+This function finds out whether given string is a palindrome or not.
 
+
+**Returns**: <code>boolean</code> - - true if the string is a palindrome, false otherwise.  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the given string |
+
+**Example**  
+```js
+const palindromes=('Racecar');
+console.log(palindromes); // True
+```
 **Test Report**
 ```
 Started
