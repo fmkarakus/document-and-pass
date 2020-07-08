@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/8/2020, 1:16:40 PM
+> 7/8/2020, 5:20:53 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -360,8 +360,23 @@ Finished in 0.004 seconds
 
 <a name="caesar"></a>
 
-## caesar()
+## caesar(str, num) ⇒ <code>string</code>
+This function takes a string to be encoded and a shift factor and then returns the encoded string.
+Only letters will be shifted and case of letters will be unchanged.
 
+
+**Returns**: <code>string</code> - - encoded string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the given string |
+| num | <code>number</code> | the shift factor |
+
+**Example**  
+```js
+const caesar=('Hello, World!', 5);
+console.log(caesar); // 'Mjqqt, Btwqi!'
+```
 **Test Report**
 ```
 Started
