@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/9/2020, 12:31:00 AM
+> 7/8/2020, 10:32:22 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -121,7 +121,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -156,7 +156,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.003 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -227,7 +227,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -271,7 +271,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.001 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -306,7 +306,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -341,7 +341,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -426,20 +426,11 @@ console.log(findTheOldest); // {name:'Ray', yearOfBirth:1962, yearOfDeath:2011}
 **Test Report**
 ```
 Started
-.F..F..F.
+.........
 
-Failures:
-1) findTheOldest finds the oldest person!
-.    TypeError: Cannot read property 'name' of undefined.
 
-2) findTheOldest finds the oldest person if someone is still living
-.    TypeError: Cannot read property 'name' of undefined.
-
-3) findTheOldest finds the oldest person if the OLDEST is still living
-.    TypeError: Cannot read property 'name' of undefined.
-
-3 specs, 3 failures
-Finished in 0.004 seconds
+3 specs, 0 failures
+Finished in 0.03 seconds
 
 ```
 
@@ -488,7 +479,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.011 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -510,25 +501,25 @@ Started
 
 Failures:
 1) snakeCase works with simple lowercased phrases
-.    Expected undefined to equal 'hello_world'..
+.    Expected '_____d' to equal 'hello_world'..
 
 2) snakeCase works with Caps and punctuation
-.    Expected undefined to equal 'hello_world'..
+.    Expected '_______' to equal 'hello_world'..
 
 3) snakeCase works with longer phrases
-.    Expected undefined to equal 'this_is_the_song_that_never_ends'..
+.    Expected '__________________' to equal 'this_is_the_song_that_never_ends'..
 
 4) snakeCase works with camel case
-.    Expected undefined to equal 'snake_case'..
+.    Expected '____e' to equal 'snake_case'..
 
 5) snakeCase works with kebab case
-.    Expected undefined to equal 'snake_case'..
+.    Expected '_____' to equal 'snake_case'..
 
 6) snakeCase works with WTF case
-.    Expected undefined to equal 'snake_case_is_awesome'..
+.    Expected '____________' to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
