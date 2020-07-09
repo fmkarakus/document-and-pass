@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/9/2020, 3:42:16 PM
+> 7/9/2020, 9:08:30 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -121,7 +121,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -156,7 +156,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.002 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -192,7 +192,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -271,7 +271,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -341,7 +341,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -430,7 +430,7 @@ Started
 
 
 3 specs, 0 failures
-Finished in 0.002 seconds
+Finished in 0.026 seconds
 
 ```
 
@@ -479,7 +479,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.011 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -492,33 +492,34 @@ Finished in 0.011 seconds
 
 <a name="snakeCase"></a>
 
-## snakeCase()
+## snakeCase(str) ⇒ <code>string</code>
+This function converts phrases and words into snake case
+Rule 1: elements are separated with one underscore character (\_) and no spaces,
+Rule 2: each element's initial letter usually lower cased
+Rule 3: convert also camel cases, kebab cases and WTF cases into snake case.
 
+
+**Returns**: <code>string</code> - - converted string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the given string |
+
+**Example**  
+```js
+const snakeCase=('Hello, World???');
+console.log(snakeCase); // 'hello_world'
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F.
+.......F..........
 
 Failures:
-1) snakeCase works with simple lowercased phrases
-.    Expected '_____d' to equal 'hello_world'..
+1) snakeCase works with longer phrases
+.    Expected 'this_is_the_song_that_never_ends__' to equal 'this_is_the_song_that_never_ends'..
 
-2) snakeCase works with Caps and punctuation
-.    Expected '_______' to equal 'hello_world'..
-
-3) snakeCase works with longer phrases
-.    Expected '__________________' to equal 'this_is_the_song_that_never_ends'..
-
-4) snakeCase works with camel case
-.    Expected '____e' to equal 'snake_case'..
-
-5) snakeCase works with kebab case
-.    Expected '_____' to equal 'snake_case'..
-
-6) snakeCase works with WTF case
-.    Expected '____________' to equal 'snake_case_is_awesome'..
-
-6 specs, 6 failures
+6 specs, 1 failure
 Finished in 0.007 seconds
 
 ```
