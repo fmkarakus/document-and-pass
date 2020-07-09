@@ -23,6 +23,7 @@ const snakeCase = function (str) {
     }
     let a = word.split("..").join(" "); // to replace '..' with spaces
     let b = a.replace("-", " "); // to replace '-' with spaces
+    b = b.trim();
     let c = b.split(" ").join("_"); // to replace spaces with _
     c = c.replace(/\W/g, ""); // to eliminate non-alphabetic expressions
     resultArr.push(c);
