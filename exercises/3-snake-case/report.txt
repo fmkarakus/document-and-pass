@@ -1,9 +1,6 @@
 Started
-.......F..........
+..................
 
-Failures:
-1) snakeCase works with longer phrases
-.    Expected 'this_is_the_song_that_never_ends__' to equal 'this_is_the_song_that_never_ends'..
 
-6 specs, 1 failure
-Finished in 0.007 seconds
+6 specs, 0 failures
+Finished in 0.004 seconds

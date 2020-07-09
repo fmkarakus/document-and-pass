@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/9/2020, 9:08:30 PM
+> 7/9/2020, 10:43:56 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.01 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -156,7 +156,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.003 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -227,7 +227,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -271,7 +271,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.002 seconds
+Finished in 0.001 seconds
 
 ```
 
@@ -306,7 +306,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -341,7 +341,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -378,7 +378,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -430,7 +430,7 @@ Started
 
 
 3 specs, 0 failures
-Finished in 0.026 seconds
+Finished in 0.019 seconds
 
 ```
 
@@ -479,7 +479,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.012 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -513,14 +513,11 @@ console.log(snakeCase); // 'hello_world'
 **Test Report**
 ```
 Started
-.......F..........
+..................
 
-Failures:
-1) snakeCase works with longer phrases
-.    Expected 'this_is_the_song_that_never_ends__' to equal 'this_is_the_song_that_never_ends'..
 
-6 specs, 1 failure
-Finished in 0.007 seconds
+6 specs, 0 failures
+Finished in 0.004 seconds
 
 ```
 
