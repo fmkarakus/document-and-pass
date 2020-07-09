@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/8/2020, 10:32:22 PM
+> 7/9/2020, 11:43:05 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -443,8 +443,26 @@ Finished in 0.03 seconds
 
 <a name="translate"></a>
 
-## translate()
+## translate(str) ⇒ <code>string</code>
+This function takes the words given and turns them into pig latin.
+Rule 1: If a word begins with a vowel sound, add an "ay" sound to the end of the word.
+Rule 2: If a word begins with a consonant sound, move it to the end of the word,
+and then add an "ay" sound to the end of the word.
+Rule 3: counts "qu" as a single phoneme
+Rule 4: counts "qu" as a consonant even when its preceded by a consonant
 
+
+**Returns**: <code>string</code> - - translated string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| str | <code>string</code> | the given string |
+
+**Example**  
+```js
+const translate=("the quick brown fox");
+console.log(translate); // "ethay ickquay ownbray oxfay"
+```
 **Test Report**
 ```
 Started
