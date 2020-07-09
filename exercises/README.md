@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/9/2020, 11:43:05 AM
+> 7/9/2020, 9:45:20 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.009 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -121,7 +121,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -156,7 +156,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.004 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -192,7 +192,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -227,7 +227,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.008 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -271,7 +271,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.002 seconds
+Finished in 0 seconds
 
 ```
 
@@ -341,7 +341,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.005 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -430,7 +430,7 @@ Started
 
 
 3 specs, 0 failures
-Finished in 0.03 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -466,38 +466,20 @@ console.log(translate); // "ethay ickquay ownbray oxfay"
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F..F..F.
+[ 'apple' ]
+...[ 'banana' ]
+...[ 'cherry' ]
+...[ 'eat', 'pie' ]
+...[ 'three' ]
+...[ 'school' ]
+...[ 'quiet' ]
+...[ 'square' ]
+...[ 'the', 'quick', 'brown', 'fox' ]
+...
 
-Failures:
-1) #translate translates a word beginning with a vowel
-.    Expected undefined to equal 'appleay'..
 
-2) #translate translates a word beginning with a consonant
-.    Expected undefined to equal 'ananabay'..
-
-3) #translate translates a word beginning with two consonants
-.    Expected undefined to equal 'errychay'..
-
-4) #translate translates two words
-.    Expected undefined to equal 'eatay iepay'..
-
-5) #translate translates a word beginning with three consonants
-.    Expected undefined to equal 'eethray'..
-
-6) #translate counts "sch" as a single phoneme
-.    Expected undefined to equal 'oolschay'..
-
-7) #translate counts "qu" as a single phoneme
-.    Expected undefined to equal 'ietquay'..
-
-8) #translate counts "qu" as a consonant even when its preceded by a consonant
-.    Expected undefined to equal 'aresquay'..
-
-9) #translate translates many words
-.    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
-
-9 specs, 9 failures
-Finished in 0.012 seconds
+9 specs, 0 failures
+Finished in 0.011 seconds
 
 ```
 
@@ -537,7 +519,7 @@ Failures:
 .    Expected '____________' to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.007 seconds
 
 ```
 
